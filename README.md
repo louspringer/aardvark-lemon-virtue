@@ -14,7 +14,7 @@ Develop a general-purpose application that utilizes Snowflake Arctic and other A
 
 1. Retrieve job data via REST API, parsing and storing the data efficiently.
 1. Enrich and organize the data into structured formats suitable for analysis.
-1. erform exploratory data analysis (EDA) to uncover trends and patterns.
+1. Perform exploratory data analysis (EDA) to uncover trends and patterns.
 1. Use LLMs to compare job descriptions with user-provided specifications, delivering tailored job matching.
 1. Implement time series analysis and anomaly detection for dynamic job market insights.
 
