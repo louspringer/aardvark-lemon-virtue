@@ -1,0 +1,37 @@
+{
+    "databaseChangeLog": [
+      {
+        "changeSet": {
+          "id": "update-request-table-pk",
+          "author": "louspringer",
+          "changes": [
+            {
+              "modifyDataType": {
+                "tableName": "request",
+                "columnName": "request_pk",
+                "newDataType": "UUID",
+                "defaultValueComputed": "UUID_STRING()"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "changeSet": {
+          "id": "update-raw-jobs-table-pk",
+          "author": "louspringer",
+          "changes": [
+            {
+              "modifyDataType": {
+                "tableName": "raw_jobs",
+                "columnName": "job_id",
+                "newDataType": "UUID",
+                "newColumnName": "job_pk",
+                "defaultValueComputed": "UUID_STRING()"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }

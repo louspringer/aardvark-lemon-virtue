@@ -1,0 +1,20 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "id": "rename-job-id-column",
+        "author": "louspringer",
+        "changes": [
+          {
+            "renameColumn": {
+              "tableName": "raw_jobs",
+              "oldColumnName": "job_id",
+              "newColumnName": "job_pk",
+              "columnDataType": "UUID"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
