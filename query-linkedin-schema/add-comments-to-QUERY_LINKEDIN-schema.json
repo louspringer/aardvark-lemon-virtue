@@ -1,0 +1,111 @@
+{
+    "databaseChangeLog": [
+      {
+        "changeSet": [
+          {
+            "id": "add-comments-to-raw_jobs-table",
+            "author": "louspringer",
+            "changes": [
+              {
+                "setTableRemarks": {
+                  "schemaName": "QUERY_LINKEDIN",
+                  "tableName": "raw_jobs",
+                  "remarks": "Table for storing raw job data."
+                }
+              },
+              {
+                "setColumnRemarks": {
+                  "schemaName": "QUERY_LINKEDIN",
+                  "tableName": "raw_jobs",
+                  "columnName": "job_pk",
+                  "remarks": "Primary key for raw job records."
+                }
+              },
+              {
+                "setColumnRemarks": {
+                  "schemaName": "QUERY_LINKEDIN",
+                  "tableName": "raw_jobs",
+                  "columnName": "request_pk",
+                  "remarks": "Foreign key referencing the request table."
+                }
+              },
+              {
+                "setColumnRemarks": {
+                  "schemaName": "QUERY_LINKEDIN",
+                  "tableName": "raw_jobs",
+                  "columnName": "json_response",
+                  "remarks": "JSON response data for raw job records."
+                }
+              },
+              {
+                "setColumnRemarks": {
+                  "schemaName": "QUERY_LINKEDIN",
+                  "tableName": "raw_jobs",
+                  "columnName": "created_at",
+                  "remarks": "Timestamp indicating when the raw job record was created."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "changeSet": [
+          {
+            "id": "add-comments-to-request-table",
+            "author": "louspringer",
+            "changes": [
+              {
+                "setTableRemarks": {
+                  "schemaName": "QUERY_LINKEDIN",
+                  "tableName": "request",
+                  "remarks": "Table for storing request data."
+                }
+              },
+              {
+                "setColumnRemarks": {
+                  "schemaName": "QUERY_LINKEDIN",
+                  "tableName": "request",
+                  "columnName": "request_pk",
+                  "remarks": "Primary key for request records."
+                }
+              },
+              {
+                "setColumnRemarks": {
+                  "schemaName": "QUERY_LINKEDIN",
+                  "tableName": "request",
+                  "columnName": "query_parameters",
+                  "remarks": "Query parameters for the request."
+                }
+              },
+              {
+                "setColumnRemarks": {
+                  "schemaName": "QUERY_LINKEDIN",
+                  "tableName": "request",
+                  "columnName": "status_code",
+                  "remarks": "Status code for the request."
+                }
+              },
+              {
+                "setColumnRemarks": {
+                  "schemaName": "QUERY_LINKEDIN",
+                  "tableName": "request",
+                  "columnName": "error_message",
+                  "remarks": "Error message for the request, if any."
+                }
+              },
+              {
+                "setColumnRemarks": {
+                  "schemaName": "QUERY_LINKEDIN",
+                  "tableName": "request",
+                  "columnName": "created_at",
+                  "remarks": "Timestamp indicating when the request record was created."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
