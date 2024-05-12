@@ -147,6 +147,12 @@
         "file": "rename-job-id-column.json",
         "relativeToChangelogFile": true
       }
+    },
+    {
+      "include": {
+        "file": "add-comments-to-QUERY_LINKEDIN-schema.json",
+        "relativeToChangelogFile": true
+      }
     }
   ]
 }
