@@ -55,7 +55,7 @@ The schema is designed to support the operational processes and analytical needs
   ```
 
 ## Contact and Support
-- For more information or support related to the database schema, please contact [Lou Springer](mailto:lou@louspringer.com). For technical issues or contributions, refer to the project's GitHub issue tracker.
+- For more information or support related to the database schema, or technical issues or contributions, refer to the project's GitHub issue tracker.
 
 ## Appendix
 - **Iteration History**: Documenting each significant change and the rationale behind updates to provide context and insights for future references.
