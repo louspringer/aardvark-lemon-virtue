@@ -2,7 +2,7 @@
 # Database Schema Documentation for the ALV Project
 
 ## Overview
-This document outlines the database schema developed for the 'aardvark-linkedin-query' component of the 'aardvark-lemon-virtue' (ALV) project. This component is an AWS Python Lambda function that retrieves job listings from LinkedIn via the Proxycurl service by Nubela, based on provided query parameters. The retrieved data is then stored in the defined schema.
+This document outlines the database schema developed for the `aardvark-query-linkedin` component of the `aardvark-lemon-virtue` (ALV) project. This component is an AWS Python Lambda function that retrieves job listings from LinkedIn via the Proxycurl service by Nubela, based on provided query parameters. The retrieved data is stored in a JSON object and placed into an S3 bucket. This bucket acts as an external stage, triggering upstream components that parse the JSON data and insert it into the tables described in this schema within a Snowflake instance.
 
 ## Schema Design
 The schema is designed to support the operational processes and analytical needs of the `aardvark-linkedin-query` component, ensuring efficient data handling and scalability.
