@@ -33,7 +33,6 @@ The schema is designed to support the operational processes and analytical needs
 ### Naming Conventions
 - **Prefixes**:
   - `RAW_`: Used for tables storing raw data directly from external sources.
-  - `DEV_`: Indicates development environment tables, which helps in separating testing and production stages.
 
 ## Technology Stack
 - **AWS Lambda**: Hosts the Python function that interacts with the Proxycurl service.
