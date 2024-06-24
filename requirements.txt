@@ -3,3 +3,5 @@ jupyter
 snowflake-connector-python[pandas]
 snowflake-sqlalchemy
 sqlalchemy
+statsbombpy
+openai
