@@ -19,5 +19,9 @@
         "titleBar.inactiveBackground": "#dd001c99",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#dd001c"
+    "peacock.color": "#dd001c",
+    "sonarlint.connectedMode.project": {
+        "connectionId": "louspringer",
+        "projectKey": "louspringer_aardvark-lemon-virtue"
+    }
 }
