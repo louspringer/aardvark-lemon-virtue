@@ -23,5 +23,6 @@
     "sonarlint.connectedMode.project": {
         "connectionId": "louspringer",
         "projectKey": "louspringer_aardvark-lemon-virtue"
-    }
+    },
+    "ansible.python.interpreterPath": "/opt/anaconda3/envs/aardvark-lemon-virtue/bin/python"
 }
