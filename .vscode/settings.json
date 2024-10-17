@@ -24,5 +24,10 @@
         "connectionId": "louspringer",
         "projectKey": "louspringer_aardvark-lemon-virtue"
     },
-    "ansible.python.interpreterPath": "/opt/anaconda3/envs/aardvark-lemon-virtue/bin/python"
+    "ansible.python.interpreterPath": "/opt/anaconda3/envs/aardvark-lemon-virtue/bin/python",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "aicursor.openaiApiKey": "",
+    "terminal.integrated.shellIntegration.decorationsEnabled": "overviewRuler",
+    "notebook.defaultFormatter": "ktiays.aicursor",
+    "gitlens.ai.experimental.openai.url": "https://elmo-fuzzy-giggle.openai.azure.com/openai/deployments/beaker-bright-lab/chat/completions?api-version=2024-08-01-preview"
 }
